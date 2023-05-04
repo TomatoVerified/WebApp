@@ -17,4 +17,13 @@ PS C:\Users\viroo\OneDrive\Desktop\WebApp\flask-server> .\venv\Scripts\activate
 
 PS C:\Users\viroo\OneDrive\Desktop\WebApp\viroosh> npm start
 # Goals
+I wanted to push myself to learn and build something of quality that I can use as a future reference to show off my capabilities to potential employers. I am in Life Science but I learn to code in my spare time, so creating a functioning application that I can show off will improve my credibility. Additionally, I wanted to learn the difference between front-end and back-end design, thus I wanted a project that incorporated both in a meaningful way. Also, I didn't want to just make something simple like a to-do list, instead I wanted to challenge myself and create an application that I'd be interested in using myself. In terms of the specific technical skills, I wanted to learn to scrape web pages to extract specific information, as well learn how to communicate between the front-end and back-end by fetching and pushing data to the server in the back-end. Morever, I have an interest in UI design as well, so I wanted to learn more about how UIs are designed for web pages. Also, I wanted to learn to automatically send email notifications, as well as learn how to automate a task that can periodically run in the background. Finally, with the recent hype about AI, I wanted to incorporate using AI tools like ChatGPT to aid me with my learning. 
 # Accomplishments 
+- learned to use chatGPT to learn about web design and fixing bugs
+- learned to use React for front-end and learned the JSX programming language that's used in it, since JSX is almost like a combination of HTML and JavaScript, I am 
+now more familiar with both
+- For React, I learned to use the Bootstrap to simplify the process of designing the UI for my application. With the help of Boostrap, I was able to format all the different components of my application in a simple and clear manner. 
+- For the back-end I learned to use Flask, which exposed me to more Python, and increased my wledge further. 
+- Overall, I learned to create a Flask server in the back-end and learned how to fetch the data from the server to the front-end and modify it as well. 
+- I learned how to scrape web pages for specific information like the title, picture, and price of the item based on URL the user provides
+- I also learned to set up an SMTP server and send notifications via email, and in addition learned to set up the application in a way that from time to time, it will scrape the data from all the URLs entered again to keep track of how the prices are changing over time, and will automatically detect when the price drops to or below the price limit set by the user, and emails them of this change.
