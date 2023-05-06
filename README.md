@@ -1,5 +1,5 @@
-# Project Summary
-In essence, this application monitors the prices of items by scraping the webpage of the URL that the user has provided, extracting relevant information, and notifying the user via email if the price of the item drops below or to a certain price point that has been set by them.
+# PriceTracker - Project Summary
+In essence, this application (PriceTracker) monitors the prices of items by scraping the webpage of the URL that the user has provided, extracting relevant information, and notifying the user via email if the price of the item drops below or to a certain price point that has been set by them.
 This application only supports URLs of items from Costco.ca, BestBuy.ca, and Amazon.ca. In addition to entering the URL of the item, they can also add a alert price, the price point that will trigger an email notification if the price of the item drop to or below that value. 
 The users can only provide a Gmail address to receive notifications from, there is a section below where they'd enter in item URLs to update their email. 
 In addition to scraping the price of the item from the URL, this application also scrapes the item's picture, title, and stock availability.
