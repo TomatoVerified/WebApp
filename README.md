@@ -1,10 +1,6 @@
 # { PriceTracker }
 # Project Summary
-In essence, this application (PriceTracker) monitors the prices of items by scraping the webpage of the URL that the user has provided, extracting relevant information, and notifying the user via email if the price of the item drops below or to a certain price point that has been set by them.
-This application only supports URLs of items from Costco.ca, BestBuy.ca, and Amazon.ca. In addition to entering the URL of the item, they can also add a alert price, the price point that will trigger an email notification if the price of the item drop to or below that value. 
-The users can only provide a Gmail address to receive notifications from, there is a section below where they'd enter in item URLs to update their email. 
-In addition to scraping the price of the item from the URL, this application also scrapes the item's picture, title, and stock availability.
-Finally, in terms of the frameworks/libraries involved, React was used for the front-end while Flask was used for the back-end. 
+In essence, this application (PriceTracker) monitors the prices of items by scraping the webpage linked by the URL the user provides. It periodically scrapes thes webpages to extract relevant information such the name of the item, its stock availability, pciture, and current price. It will also notify the user via gmail if the price of the item drops below or to a certain price point that the user has set. The user enters the URL, provides an optional description, and enters in the alert price, which is the value that will trigger an email notification if the item's price drops to or below that value. Moreover, this application only supports URLs of items from Costco.ca, BestBuy.ca, and Amazon.ca. The users can only provide a Gmail address to receive notifications from, there is a section where they can enter in their email address or update the one already entered. Finally, in terms of the frameworks/libraries involved, React was used for the front-end while Flask was used for the back-end.
 
 # Local Setup
 1) Inside flask-server directory (type cd flask-server to enter directory), enter the command as shown (for Windows):
